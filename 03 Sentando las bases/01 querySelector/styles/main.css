@@ -8,7 +8,7 @@
 
 body {
   align-items: center;
-  background-color: var(--bg-color);
+  background-color: black;
   color: var(--font-color);
   display: flex;
   flex-direction: column;
@@ -34,7 +34,7 @@ main {
   top: 0;
 }
 
-.comment {
+.comentario {
   border: 1px solid var(--font-color);
   border-radius: 5px;
   padding: 10px;
@@ -42,15 +42,15 @@ main {
   transition: transform 0.2s ease-in-out;
 }
 
-.comment:hover {
+.comentario:hover {
   transform: translateX(5px);
 }
 
-.comment--author {
+.comentario--autor {
   font-weight: bold;
 }
 
-.comment--text {
+.comentario--texto {
   font-weight: ;
 }
 
@@ -61,4 +61,11 @@ main {
     --bg-color: #222;
     --font-color: #AAA;
   }
+}
+
+.resaltado{
+  color: blueviolet;
+}
+.azul{
+  color: blue;
 }
