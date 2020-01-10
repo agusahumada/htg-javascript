@@ -50,9 +50,6 @@ main {
   font-weight: bold;
 }
 
-.comentario--texto {
-  font-weight: ;
-}
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -67,5 +64,8 @@ main {
   color: blueviolet;
 }
 .azul{
-  color: blue;
+  border-color: blue;
+}
+.caracteresOcultos{
+display: none;
 }
